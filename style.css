@@ -1,0 +1,201 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background-color: #395AFF;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    header {
+      background-color: #000;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .logo a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: #fff;
+      font-size: 2rem;
+    }
+    .logo{
+        margin-left: 100px;
+    }
+    .logo span {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #395AFF;
+      margin-left: 5px;
+    }
+    .links {
+      display: flex;
+      list-style: none;
+      gap: 15px;
+      margin-right: 40px;
+    }
+    .links a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1rem;
+    }
+    section {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .container {
+      width: 50%;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+    }
+    .container h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+    form input {
+      padding: 10px;
+      width: 35%;
+      margin: 10px 5px 10px 0;
+      border: none;
+    }
+    
+    form button {
+      padding: 10px 20px;
+      background-color: #395AFF;
+      border: none;
+      border-radius: 3px;
+      color: #fff;
+      cursor: pointer;
+    }
+    form button:hover {
+      background-color: #666;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid #ddd;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+    .actions button {
+      margin: 0 2px;
+    }
+  .edit {
+      background: #676767;
+      color: #000;
+      cursor: pointer;
+      padding: 8px;
+      border: none;
+      color: #fff;
+      border-radius: 2px;
+    }
+
+    .edit:hover{
+        background-color: #395AFF;
+    }
+
+      .delete {
+      background: #676767;
+      color: white;
+      border: none;
+      padding: 8px;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+
+    .delete:hover{
+        background-color: #ff0019;
+    }
+
+
+.my-swal-popup {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 30px;
+  font-family: "Arial", sans-serif;
+}
+
+.my-swal-title {
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.my-swal-text {
+  color: #555;
+  font-size: 16px;
+}
+
+.my-swal-confirm {
+  background-color: #666;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.my-swal-confirm:hover {
+  background-color: #395AFF;
+}
+
+.my-swal-icon {
+  color: #4caf50; /* overrides icon color */
+}
+
+
+.my-swal-popup-color {
+  background-color: #fefefe;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.my-swal-title-color {
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.my-swal-confirm-color {
+  background-color: #d33;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.my-swal-confirm-color:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.my-swal-cancel-color {
+  background-color: #395AFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.my-swal-icon-color {
+  color: #f1c40f; /* Optional: style warning icon */
+}
+
+
+    

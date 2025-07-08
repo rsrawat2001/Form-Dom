@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.22.0/dist/sweetalert2.min.css">
+
+</head>
+<body>
+    <header>
+         <div class="logo">
+            <a href="#"><h2>Coding</h2><span>Nest</span></a>
+        </div>
+        <ul class="links">
+            <a href=""><li>HOME</li></a>
+            <a href=""><li>ABOUT</li></a>
+            <a href=""><li>CONTACT US</li></a>
+        </ul>
+    </header>
+
+    <section>
+ <div class="container">
+  <button type="submit" id="load-data-btn" onclick="saveFormData()">Load a lots of users</button>
+
+    <h1>Users List</h1>
+    <form action="" id="user-form">
+        <input placeholder="Enter Your Name" type="text" name="name" id="name">
+      
+
+        <input placeholder="Email" type="email" name="email" id="email">
+        
+
+<button type="submit" id="add-users-btn " onclick="saveFormData()">Add Users</button>
+    </form>
+
+    <table id="userTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+        </thead>
+      <tbody>
+        <!-- Usrs list will be here -->
+      </tbody>
+    </table>
+  </div>
+      </section>
+       
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.16.1/sweetalert2.min.js" integrity="sha512-LGHBR+kJ5jZSIzhhdfytPoEHzgaYuTRifq9g5l6ja6/k9NAOsAi5dQh4zQF6JIRB8cAYxTRedERUF+97/KuivQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
